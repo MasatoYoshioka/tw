@@ -1,14 +1,12 @@
 #ターミナルでツイッターを見る
 
 ```
-
 $git clone git@github.com:MasatoYoshioka/tw.git
 $composer install
-
 ```
 
 ```
-vi ~/bin/tw.php
+vi ~/bin/tw.php //change define value
 define('CONSUMER_KEY','your consumer_key');
 define('CONSUMER_SECRET','your consumer_secret');
 define('ACCESS_TOKEN','your access_token');
