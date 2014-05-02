@@ -33,7 +33,6 @@ class Tw
 class Tw_Terminal
 {
 	public $tw;
-	public $user;
 	public $last_tweet_id;
 	public function __construct(Tw $tw)
 	{
