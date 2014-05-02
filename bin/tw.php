@@ -1,10 +1,10 @@
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
-define('CONSUMER_KEY','vJVvMwGlnl87do4zKFoX5deEu');
-define('CONSUMER_SECRET','0V5yjRtdTmCCdbOhOXQfqG0VYjwS7FWU8O2yO3PW1IiasZCLap');
-define('ACCESS_TOKEN','207861098-OpjeftpCKWALA6y9j7oEuTL0aIrL9akArHK84q5v');
-define('ACCESS_SECRET','oqFVk1we4spet6mvbldksYh0sxclku18qsYRyI82PEP6W');
+define('CONSUMER_KEY','your consumer_key');
+define('CONSUMER_SECRET','your consumer_secret');
+define('ACCESS_TOKEN','your access_token');
+define('ACCESS_SECRET','your access_secret');
 
 class Tw
 {
