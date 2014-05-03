@@ -6,11 +6,17 @@ $composer install
 ```
 
 ```
-vi ~/bin/tw.php //change define value
-define('CONSUMER_KEY','your consumer_key');
-define('CONSUMER_SECRET','your consumer_secret');
-define('ACCESS_TOKEN','your access_token');
-define('ACCESS_SECRET','your access_secret');
+
+cp ~/config/config.yaml.sample ~/config.config.yaml
 
 $php ~/bin/tw.php
+```
+
+##For example
+
+```
+$vi .zshrc 
+alias tw="/usr/bin/php ~/path/to/tw/bin/tw.php"
+$source .zshrc
+$tw
 ```
