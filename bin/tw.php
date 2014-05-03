@@ -40,7 +40,7 @@ class Tw_Terminal
 	}
 	public function get_home_timeline($reverse = true)
 	{
-		$tweets = $this->tw->get_home_timeline($this->user);
+		$tweets = $this->tw->get_home_timeline();
 		if($reverse) sort($tweets);
 		return $tweets;
 	}
