@@ -1,5 +1,6 @@
 {
 	"require" : {
-		"kertz/twitteroauth": "dev-master"
+		"kertz/twitteroauth": "dev-master",
+		"symfony/yaml": "2.5.*@dev"
 	}
 }
